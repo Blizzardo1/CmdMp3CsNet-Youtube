@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>CmdMp3CsNetForYoutube.Program</StartupObject>
+    <Authors>Adonis S. Deliannis (Blizzardo1)</Authors>
+    <Company>Blizzeta Software and Gaming</Company>
+    <Product>CmdMp3CsNet</Product>
+    <Description>A command line application that turns your Elgato Streamdeck into a Soundboard</Description>
+    <Copyright>Adonis S. Deliannis</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="1.8.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
